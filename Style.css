@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	background: #e5e5e5;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+}
+li {
+	margin-right: 2rem;
+	padding: 0.2rem;
+	align-self: center;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2rem;
+}
+li:hover {
+	background-color: #fff;
+	border-radius: 0.5rem;
+	transition: all 0.5s ease;
+}
+.hero {
+	display: flex;
+}
+.hero-text {
+	margin: auto;
+	padding: 1rem;
+}
+h1 {
+	font-size: 2rem;
+}
+.hero-para {
+	font-size: 1.2rem;
+	margin-top: 4rem;
+}
+button {
+	margin-top: 4rem;
+	background-color: blue;
+	color: whitesmoke;
+	padding: 0.5rem 1rem;
+	border: none;
+}
+button:hover {
+	background-color: #fff;
+	color: #000;
+	font-size: 1.1rem;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+.hero-img {
+	width: 65%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 1rem;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.liner {
+	display: flex;
+	align-items: flex-start;
+	text-align: left;
+}
+.liner:after {
+	content: '';
+	flex-grow: 1;
+	height: 1px;
+	background: #000;
+	min-width: 20px;
+	margin: auto;
+}
+.liner:after {
+	margin-left: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 1rem 2rem;
+}
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 1rem 2rem;
+}
+.copy-right {
+	padding: 1rem 2rem;
+}
+
+/* contact us page */
+.contact {
+	margin-top: 2rem;
+}
